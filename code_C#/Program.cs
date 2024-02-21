@@ -59,13 +59,13 @@ int index = CountIndexForNewArray(arr);
 string[] GetArrayWithLess4Sym(string[] arr, int j)
 {
     string[] newarr = new string[j];
-    int c = 0;
+    int index = 0;
     for (int i = 0; i < arr.Length; i++)
     {
         if (arr[i].Length <= 3)
         {
-            newarr[c] = arr[i];
-            c++;
+            newarr[index] = arr[i];
+            index++;
         }
     }
     return newarr;
