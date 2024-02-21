@@ -11,8 +11,25 @@ Contains the code execution algorithm
 ```
 
 * code_C#
+Contains
+```sh
+CreateArray function
+creates array with with random symbols an with a random length 
+```
 
 ```sh
-Contains a program with code
+PrintArray function
+displays arrays on screen
 ```
+
+```sh
+CountIndexForNewArray function
+looks up the number of elements for a new array
+```
+
+```sh
+GetArrayWithLess4Sym function
+sorts the old array and forms a new one
+```
+
 # Have a nice day!
